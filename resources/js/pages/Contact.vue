@@ -13,6 +13,8 @@
             <label for="message">Messaggio</label>
             <textarea v-model="message" class="form-control" id="message" name="message" rows="3"></textarea>
         </div>
+
+        <button type="submit" class="btn btn-primary">{{ sending ? "Sto inviando..." : "Invia" }}</button>
     </form>
   </div>
 </template>

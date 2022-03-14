@@ -17,17 +17,17 @@ const router = new VueRouter({
         {
             path: '/',
             name: 'home',
-            components: Home
+            component: Home
         },
         {
             path: '/contact',
             name: 'contact',
-            components: Contact
+            component: Contact
         },
         {
             path: '/about',
             name: 'about',
-            components: About
+            component: About
         },
     ]
 });
